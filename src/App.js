@@ -5,6 +5,6 @@ import { ModifyWelcomeJSX } from "./JsxProps";
 
 export class App extends React.Component {
     render() {
-        return <ModifyWelcomeJSX name="Masodi" age={20}/>;
+        return <Welcome name="Masodi"/>;
     };
 };
